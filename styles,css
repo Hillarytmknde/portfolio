@@ -7,6 +7,37 @@
     font-family: 'spartan', sans-serif;
 }
 
+body {
+    background: #465b52;
+    color: aqua;
+}
+
+.header {
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    display: flex;
+    z-index: 100;
+    padding: 20px 10%;
+    background: transparent;
+    width: 100%;
+}
+
+.navbar {
+    font-size: 18px;
+    color: #300d0d;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #103645;
+}
+
 h1 {
     font-size: 50px;
     line-height: 64px;
